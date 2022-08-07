@@ -3,23 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title></title>
 		 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-		<!-- --
-		<link href="style.css" rel="stylesheet">
-		<!-- -->
 	</head>
 	<body>
 
 
     
-<!----
+<!---->
 <div class="border container-fluid mt-5">
-	<h1 class="border text-center py-5 my-5">CarouselWithThumbnail</h1>
+	<h1 class="border text-center my-2">CarouselThumb</h1>
 </div>
-
-	<div id="CarouselThumb" class="border carousel carousel-dark slide" data-bs-bs-ride="true">
-		<div class="border carousel-inner shadow mt-2 mx-2">
+	<div id="CarouselThumb" class="border carousel carousel-dark slide" data-bs-ride="true">
+		<div class="border carousel-inner shadow mt-2 mb-2">
 			<div class="carousel-item active">
 			  <img src="https://i.imgur.com/lCpxVO2.jpg" class="w-100" alt="Hills">
 			</div>
@@ -59,30 +54,30 @@
 
 <!---->
 <div class="border container-fluid mt-5">
-  <h1 class="text-center my-5">CarouselProducts</h1>
+  <h1 class="text-center my-2">CarouselProducts</h1>
 </div>
 
 <div id="CarouselProducts" class="border row carousel carousel-dark slide" data-bs-ride="true">
 	<div class="col my-4 border">
 		<div class="carousel-inner">
   		<div class="carousel-item active">
-  			<img src="https://i.imgur.com/lCpxVO2.jpg" class="d-block w-75" alt="...">
+  			<img src="https://i.imgur.com/lCpxVO2.jpg" class="d-block w-100" alt="...">
   		</div>
   		<div class="carousel-item">
-  			<img src="https://i.imgur.com/g1jFVrI.jpg" class="d-block w-75" alt="...">
+  			<img src="https://i.imgur.com/g1jFVrI.jpg" class="d-block w-100" alt="...">
   		</div>
   		<div class="carousel-item">
-  			<img src="https://i.imgur.com/O6cdGTZ.jpg" class="d-block w-75" alt="...">
+  			<img src="https://i.imgur.com/O6cdGTZ.jpg" class="d-block w-100" alt="...">
   		</div>
 		</div>
 		
-    <div class="carousel-indicators list-inline " style="position: sticky">
-  		<li class="list-inline-item active py-1 px-1 border">
+    <div class="carousel-indicators list-inline mt-2 py-1 border" style="position: relative">
+  		<li class="list-inline-item active">
   		  <a id="carousel-selector-0" class="selected" data-bs-slide-to="0" data-bs-target="#CarouselProducts">
-  			<img src="https://i.imgur.com/lCpxVO2.jpg" class="img-fluid">
+  			<img src="https://i.imgur.com/lCpxVO2.jpg" class="w-100">
   		  </a>
   		</li>
-  		<li class="list-inline-item border" style="margin-right: 0rem;">
+  		<li class="list-inline-item">
   		  <a id="carousel-selector-1" data-bs-slide-to="1" data-bs-target="#CarouselProducts">
   			<img src="https://i.imgur.com/g1jFVrI.jpg" class="img-fluid">
   		  </a>
@@ -95,7 +90,7 @@
 	   </div>
 	</div>
 	
-	<div class="col-3 container border">
+	<div class="col-4 container border d-flex align-items-center">
 		<div class="border">
 				<h2 class="text-center">HOT PROMO!</h2>
 				<p class="border">Blablabla... blabla... bla...</p>
